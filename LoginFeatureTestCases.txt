@@ -1,0 +1,35 @@
+Test Cases of a Login Page: (https://www.saucedemo.com/index.html)
+1.	Verify login page is launched when url is entered in browser.
+2.	Verify that the login screen contains elements such as Username, Password, Login button
+3.	Verify that the login screen contains logos and images such as login logo, bot column
+4.	Verify that tab functionality is working properly or not
+5.	Verify that Enter key works as a substitute for the Login button
+6.	Verify that all the fields such as Username, Password has a valid placeholder
+7.	Verify that User is able to Login with Valid Credentials
+8.	Verify that User is not able to Login with invalid Username and invalid Password
+9.	Verify that User is not able to Login with Valid Username and invalid Password
+10.	Verify that User is not able to Login with invalid Username and Valid Password
+11.	Verify that User is not able to Login with blank Username or Password
+12.	Verify that validation message is displayed in case when User leaves Username or Password as blank
+13.	Verify that User is not able to Login with inactive credentials
+14.	Verify that validation message is displayed in case of entering invalid Username and password fields
+15.	Verify that clicking on browser back button after successful login should not take User to log out mode
+16.	Verify that clicking on browser back button after successful logout should not take User to logged in mode
+17.	Verify that there is a limit on the total number of unsuccessful login attempts (No. of invalid attempts should be based on business logic)
+18.	Verify that the password is in encrypted form when entered
+19.	Verify the password can be copy-pasted
+20.	Verify that encrypted characters in “Password” field should not allow decrypting if copied
+21.	Verify that User should be able to login with the new password after changing the password
+22.	Verify that User should not be able to login with the old password after changing the password
+23.	Verify that spaces should not be allowed before any password characters attempted
+24.	Verify that whether User is still logged in after series of actions such as Login, close browser and reopen the application.
+25.	Verify that the logout link is redirected to login page
+26.	Verify that validation message is displayed in case of exceeding the character limit of the Username and Password fields
+
+Test Cases of a Home Page: (https://www.saucedemo.com/inventory.html)
+1.	Verify that User is redirected to home page after successful login
+2.	Verify all links in home page are working
+	Etc…
+
+Test cases written with some assumptions. 
+
